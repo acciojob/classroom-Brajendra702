@@ -12,11 +12,12 @@ public class StudentRepository {
     HashMap<String ,Teacher> teacherHashMap=new HashMap<>();
     HashMap<String, List<String>> teacherStudentHashMap=new HashMap<>();
 
-    public void addStudent(Student student) {
-        studentHashMap.put(student.getName(),student);
+    public void addStudent(Student student){
+         studentHashMap.put(student.getName(), student);
     }
 
     public void addTeacher(Teacher teacher) {
+
         teacherHashMap.put(teacher.getName(),teacher);
     }
 
